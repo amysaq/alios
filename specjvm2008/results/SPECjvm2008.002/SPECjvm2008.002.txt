@@ -1,0 +1,217 @@
+================================
+SPECjvm2008 Lagom Workload
+================================
+n/a n/a
+Sun Microsystems Inc. Java HotSpot(TM) 64-Bit Server VM
+Tested by: n/a Test date: Thu Jul 16 05:08:15 CST 2015
+Run is valid, but not compliant
+
+================================
+compiler                      93.87                                   
+compress                      54.72                                   
+crypto                        63.28                                   
+derby                         71.39                                   
+mpegaudio                     38.53                                   
+scimark.large                 22.87                                   
+scimark.small                 86.43                                   
+serial                        46.66                                   
+sunflow                       25.03                                   
+xml                           108.99                                  
+Noncompliant composite result: 54.35 ops/m
+================================
+
+
+Submitter                     n/a                                     
+Submitter URL                 n/a                                     
+SPEC license                  n/a                                     
+Tester                        admin                                   
+Location                      n/a                                     
+Test date:                    Thu Jul 16 05:08:15 CST 2015            
+OS name                       Linux                                   
+OS available                  n/a                                     
+OS address bits               n/a                                     
+OS tuning                                                             
+Filesystem                    n/a                                     
+Other s/w name                                                        
+Other s/w tuning                                                      
+Other s/w available                                                   
+Vendor                        Sun Microsystems Inc.                   
+Vendor URL                    http://java.sun.com/                    
+JVM name                      Java HotSpot(TM) 64-Bit Server VM       
+JVM version                   20.8-b03 mixed mode                     
+JVM available                 n/a                                     
+Java Specification            1.6                                     
+JVM address bits              64                                      
+JVM initial heap memory       n/a                                     
+JVM maximum heap memory       n/a                                     
+JVM command line              n/a                                     
+JVM command line startup                                              
+JVM launcher startup          default                                 
+Additional JVM tuning                                                 
+JVM class path                SPECjvm2008.jar                         
+JVM boot class path           /opt/taobao/install/jdk1.6.0_33-64bit/jre/lib/alt-string.jar:/opt/taobao/install/jdk1.6.0_33-64bit/jre/lib/resources.jar:/opt/taobao/install/jdk1.6.0_33-64bit/jre/lib/rt.jar:/opt/taobao/install/jdk1.6.0_33-64bit/jre/lib/sunrsasign.jar:/opt/taobao/install/jdk1.6.0_33-64bit/jre/lib/jsse.jar:/opt/taobao/install/jdk1.6.0_33-64bit/jre/lib/jce.jar:/opt/taobao/install/jdk1.6.0_33-64bit/jre/lib/charsets.jar:/opt/taobao/install/jdk1.6.0_33-64bit/jre/lib/modules/jdk.boot.jar:/opt/taobao/install/jdk1.6.0_33-64bit/jre/classes
+HW vendor                     n/a                                     
+HW vendor's URL               n/a                                     
+HW model                      n/a                                     
+HW available                  n/a                                     
+CPU vendor                    n/a                                     
+CPU vendor's URL              n/a                                     
+CPU name                      n/a                                     
+CPU frequency                 n/a                                     
+# of logical cpus             n/a                                     
+# of chips                    n/a                                     
+# of cores                    n/a                                     
+Cores per chip                n/a                                     
+Threads per core              n/a                                     
+Threading enabled             n/a                                     
+HW address bits               n/a                                     
+Primary cache                 n/a                                     
+Secondary cache               n/a                                     
+Other cache                   n/a                                     
+Memory size                   n/a                                     
+Memory details                n/a                                     
+Other HW details              n/a                                     
+
+Property specjvm.run.checksum.validation must be true for publication.
+
+specjvm.maxiter=5
+specjvm.miniter=5
+specjvm.propfile=props/specjvm.properties
+specjvm.benchmark.threads=8
+specjvm.fixed.operations=15
+
+Details of Runs
+---------------
+PASSED
+
+Benchmark                     Iteration      Expected(ms)   Actual(ms)     Operations     ops/m          
+---------------------------------------------------------------------------------------------------
+
+compiler.compiler             iteration 1    null           87747          120.00         82.05          
+compiler.compiler             iteration 2    null           50394          120.00         142.87         
+compiler.compiler             iteration 3    null           51034          120.00         141.08         
+compiler.compiler             iteration 4    null           50477          120.00         142.64         
+compiler.compiler             iteration 5    null           48885          120.00         147.28         
+
+compiler.sunflow              iteration 1    null           123868         120.00         58.13          
+compiler.sunflow              iteration 2    null           120338         120.00         59.83          
+compiler.sunflow              iteration 3    null           120536         120.00         59.73          
+compiler.sunflow              iteration 4    null           121172         120.00         59.42          
+compiler.sunflow              iteration 5    null           122634         120.00         58.71          
+
+compress                      iteration 1    null           132313         120.00         54.42          
+compress                      iteration 2    null           131613         120.00         54.71          
+compress                      iteration 3    null           131614         120.00         54.71          
+compress                      iteration 4    null           132313         120.00         54.42          
+compress                      iteration 5    null           131572         120.00         54.72          
+
+crypto.aes                    iteration 1    null           343878         120.00         20.94          
+crypto.aes                    iteration 2    null           342177         120.00         21.04          
+crypto.aes                    iteration 3    null           342589         120.00         21.02          
+crypto.aes                    iteration 4    null           343257         120.00         20.98          
+crypto.aes                    iteration 5    null           341866         120.00         21.06          
+
+crypto.rsa                    iteration 1    null           66135          120.00         108.87         
+crypto.rsa                    iteration 2    null           64730          120.00         111.23         
+crypto.rsa                    iteration 3    null           64868          120.00         110.99         
+crypto.rsa                    iteration 4    null           64753          120.00         111.19         
+crypto.rsa                    iteration 5    null           64777          120.00         111.15         
+
+crypto.signverify             iteration 1    null           67756          120.00         106.26         
+crypto.signverify             iteration 2    null           67181          120.00         107.17         
+crypto.signverify             iteration 3    null           66661          120.00         108.01         
+crypto.signverify             iteration 4    null           66556          120.00         108.18         
+crypto.signverify             iteration 5    null           66648          120.00         108.03         
+
+derby                         iteration 1    null           107417         120.00         67.03          
+derby                         iteration 2    null           101030         120.00         71.27          
+derby                         iteration 3    null           102134         120.00         70.50          
+derby                         iteration 4    null           101184         120.00         71.16          
+derby                         iteration 5    null           100856         120.00         71.39          
+
+mpegaudio                     iteration 1    null           192874         120.00         37.33          
+mpegaudio                     iteration 2    null           186930         120.00         38.52          
+mpegaudio                     iteration 3    null           187430         120.00         38.41          
+mpegaudio                     iteration 4    null           187347         120.00         38.43          
+mpegaudio                     iteration 5    null           186844         120.00         38.53          
+
+scimark.fft.large             iteration 1    null           248628         120.00         28.96          
+scimark.fft.large             iteration 2    null           249830         120.00         28.82          
+scimark.fft.large             iteration 3    null           256477         120.00         28.07          
+scimark.fft.large             iteration 4    null           249503         120.00         28.86          
+scimark.fft.large             iteration 5    null           250229         120.00         28.77          
+
+scimark.lu.large              iteration 1    null           825813         120.00         8.72           
+scimark.lu.large              iteration 2    null           818015         120.00         8.80           
+scimark.lu.large              iteration 3    null           834277         120.00         8.63           
+scimark.lu.large              iteration 4    null           818562         120.00         8.80           
+scimark.lu.large              iteration 5    null           824518         120.00         8.73           
+
+scimark.sor.large             iteration 1    null           508187         120.00         14.17          
+scimark.sor.large             iteration 2    null           505741         120.00         14.24          
+scimark.sor.large             iteration 3    null           504768         120.00         14.26          
+scimark.sor.large             iteration 4    null           506577         120.00         14.21          
+scimark.sor.large             iteration 5    null           505294         120.00         14.25          
+
+scimark.sparse.large          iteration 1    null           334298         120.00         21.54          
+scimark.sparse.large          iteration 2    null           342490         120.00         21.02          
+scimark.sparse.large          iteration 3    null           344616         120.00         20.89          
+scimark.sparse.large          iteration 4    null           338593         120.00         21.26          
+scimark.sparse.large          iteration 5    null           338149         120.00         21.29          
+
+scimark.monte_carlo           iteration 1    null           90770          120.00         79.32          
+scimark.monte_carlo           iteration 2    null           93674          120.00         76.86          
+scimark.monte_carlo           iteration 3    null           90102          120.00         79.91          
+scimark.monte_carlo           iteration 4    null           90549          120.00         79.51          
+scimark.monte_carlo           iteration 5    null           90259          120.00         79.77          
+
+scimark.fft.small             iteration 1    null           62705          120.00         114.82         
+scimark.fft.small             iteration 2    null           62124          120.00         115.90         
+scimark.fft.small             iteration 3    null           61914          120.00         116.29         
+scimark.fft.small             iteration 4    null           62142          120.00         115.86         
+scimark.fft.small             iteration 5    null           61566          120.00         116.95         
+
+scimark.lu.small              iteration 1    null           57017          120.00         126.28         
+scimark.lu.small              iteration 2    null           56997          120.00         126.32         
+scimark.lu.small              iteration 3    null           56890          120.00         126.56         
+scimark.lu.small              iteration 4    null           56882          120.00         126.58         
+scimark.lu.small              iteration 5    null           57014          120.00         126.28         
+
+scimark.sor.small             iteration 1    null           113175         120.00         63.62          
+scimark.sor.small             iteration 2    null           112833         120.00         63.81          
+scimark.sor.small             iteration 3    null           112992         120.00         63.72          
+scimark.sor.small             iteration 4    null           112692         120.00         63.89          
+scimark.sor.small             iteration 5    null           112867         120.00         63.79          
+
+scimark.sparse.small          iteration 1    null           113773         120.00         63.28          
+scimark.sparse.small          iteration 2    null           112811         120.00         63.82          
+scimark.sparse.small          iteration 3    null           113063         120.00         63.68          
+scimark.sparse.small          iteration 4    null           112911         120.00         63.77          
+scimark.sparse.small          iteration 5    null           113005         120.00         63.71          
+
+serial                        iteration 1    null           159240         120.00         45.21          
+serial                        iteration 2    null           155781         120.00         46.22          
+serial                        iteration 3    null           154308         120.00         46.66          
+serial                        iteration 4    null           154391         120.00         46.63          
+serial                        iteration 5    null           154582         120.00         46.58          
+
+sunflow                       iteration 1    null           294459         120.00         24.45          
+sunflow                       iteration 2    null           287665         120.00         25.03          
+sunflow                       iteration 3    null           290966         120.00         24.75          
+sunflow                       iteration 4    null           295771         120.00         24.34          
+sunflow                       iteration 5    null           289694         120.00         24.85          
+
+xml.transform                 iteration 1    null           106624         120.00         67.53          
+xml.transform                 iteration 2    null           81204          120.00         88.67          
+xml.transform                 iteration 3    null           80192          120.00         89.78          
+xml.transform                 iteration 4    null           80318          120.00         89.64          
+xml.transform                 iteration 5    null           81415          120.00         88.44          
+
+xml.validation                iteration 1    null           67955          120.00         105.95         
+xml.validation                iteration 2    null           54422          120.00         132.30         
+xml.validation                iteration 3    null           56066          120.00         128.42         
+xml.validation                iteration 4    null           55944          120.00         128.70         
+xml.validation                iteration 5    null           56233          120.00         128.04         
+
+SPECjvm2008 Version: [SPECjvm2008 1.01 (20090519)]
+Copyright (C) 2008-2015 SPEC. All rights reserved

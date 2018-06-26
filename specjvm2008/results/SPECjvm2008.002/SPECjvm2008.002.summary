@@ -1,0 +1,10 @@
+Report:      SPECjvm2008 Lagom Workload summary
+Result:      Noncompliant composite result: 54.35 ops/m
+HW Model:    n/a, n/a
+HW CPU:      n/a, n/a
+OS:          Linux
+JVM:         Sun Microsystems Inc., Java HotSpot(TM) 64-Bit Server VM, 20.8-b03 mixed mode
+JVM tuning:  n/a
+JVM startup:  
+Tester:      admin, n/a
+Run date:    Thu Jul 16 05:08:15 CST 2015
